@@ -1,0 +1,104 @@
+html{
+  background-color: #455166;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#container{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 40;
+}
+
+#settingBar{
+  position: absolute;
+}
+
+#mainBox{
+  position: absolute;
+  background-color: #F3F3F3;
+}
+
+#mainLabelLeft{
+  position: absolute;
+  width: 2%;
+}
+
+#mainLabelTop{
+  position: absolute;
+  height: 3%;
+}
+
+.stackableContainer{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.mainLabelTopCell{
+  width: 14.285%;
+  height: 100%;
+  float: left;
+  text-align: center;
+  color: white;
+}
+
+.mainLabelLeftCell{
+  text-align: center;
+  color: white;
+}
+
+#secondaryBox{
+  position: absolute;
+}
+
+#secondaryLabelLeft{
+  position: absolute;
+  width: 5%;
+}
+
+#secondaryLabelTop{
+  position: absolute;
+  height: 2%;
+}
+
+.clear{
+  background-color: #F9F9F9;
+}
+
+.dark{
+  background-color: #F6F6F6;
+}
+
+.day{
+  position: relative;
+  float: left;
+  width: 14.2857142%;
+  height: 100%;
+}
+
+.line{
+  position: relative;
+  width: 100%;
+  background-color: rgba(200,200,200,0.4);
+  height: 1px;
+}
+
+#whichMode{
+  display: inline;
+  position: absolute;
+  bottom: 0;
+}
+
+#datepicker{
+  text-align: center;
+  padding: 4px;
+  bottom: 0;
+  font-size: 150%;
+  height: 1.5em;
+  width: 5em;
+  position: absolute;
+  right: 0;
+  border: none;
+  background-color: #F7F7F7;
+}
